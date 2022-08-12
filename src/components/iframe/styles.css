@@ -1,0 +1,7 @@
+.Iframer {
+  display: grid;
+  place-items: center;
+}
+.Iframer iframe {
+  width: fit-content;
+}

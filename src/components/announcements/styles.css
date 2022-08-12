@@ -1,0 +1,18 @@
+.news {
+  animation: slide 10s linear infinite;
+  width: 100vw;
+  height: 70px;
+  white-space: nowrap;
+  transition: all 0.6s ease-in-out;
+}
+
+@keyframes slide {
+  100% {
+    transform: translatex(-100%);
+    transition: all 0.6s ease-in-out;
+  }
+  0% {
+    transform: translatex(100%);
+    transition: all 0.6s ease-in-out;
+  }
+}

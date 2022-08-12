@@ -1,0 +1,9 @@
+a:hover {
+  color: purple;
+}
+.as {
+  transition: all 0.6s ease;
+}
+.as:hover {
+  color: blue;
+}
