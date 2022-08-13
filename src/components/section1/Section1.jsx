@@ -162,6 +162,10 @@ const Section1 = () => {
                 <ListItemText
                   primary=' Faith and Fun'
                   sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  primaryTypographyProps={{
+                    fontFamily: "Montserrat",
+                    color: "var(--textGray)",
+                  }}
                 />
               </ListItem>
             </List>
@@ -175,6 +179,10 @@ const Section1 = () => {
                 <ListItemText
                   primary='Affirmation and Appreciation'
                   sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  primaryTypographyProps={{
+                    fontFamily: "Montserrat",
+                    color: "var(--textGray)",
+                  }}
                 />
               </ListItem>
             </List>
@@ -188,6 +196,10 @@ const Section1 = () => {
                 <ListItemText
                   primary=' Mutual respect'
                   sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  primaryTypographyProps={{
+                    fontFamily: "Montserrat",
+                    color: "var(--textGray)",
+                  }}
                 />
               </ListItem>
             </List>
@@ -201,6 +213,10 @@ const Section1 = () => {
                 <ListItemText
                   primary='  Integrity'
                   sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  primaryTypographyProps={{
+                    fontFamily: "Montserrat",
+                    color: "var(--textGray)",
+                  }}
                 />
               </ListItem>
             </List>
@@ -212,9 +228,12 @@ const Section1 = () => {
                   <FavoriteIcon sx={{ color: "green" }} />
                 </ListItemIcon>
                 <ListItemText
-                  primary=' Love and yielded-ness to
-              the Holy Spirit in the family'
+                  primary='Love and yielded-ness to the Holy Spirit in the family'
                   sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  primaryTypographyProps={{
+                    fontFamily: "Montserrat",
+                    color: "var(--textGray)",
+                  }}
                 />
               </ListItem>
             </List>

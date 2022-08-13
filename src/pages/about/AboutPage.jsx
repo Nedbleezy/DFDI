@@ -68,7 +68,7 @@ const AboutPage = () => {
                 }}>
                 Delightful family development Initiative (DFDI) was born out of
                 a strong desire to restore love, happiness and stability to
-                families.It is also aimed at grooming singles for happy
+                families. It is also aimed at grooming singles for happy
                 marriage.
               </Typography>
             </Fade>
@@ -82,13 +82,13 @@ const AboutPage = () => {
                   color: "var(--textGray)",
                   fontSize: "1.18rem",
                 }}>
-                DFDI had its first outing on the 17th of March 2018,with an
-                attendance of 200 persons including the married,engaged,divorced
-                and singles. And since then he Initiative has been holding a
-                quarterly seminar captured <b>“Marriage on the Rock”</b>, which
-                has recorded numerous testimonies from attendance such as
-                healing and restoration of broken homes,marriages, relationships
-                and families.
+                DFDI had its first outing on the 17th of March 2018, with an
+                attendance of 200 persons including the married, engaged,
+                divorced and singles. And since then he Initiative has been
+                holding a quarterly seminar captured{" "}
+                <b> “Marriage on the Rock” </b>, which has recorded numerous
+                testimonies from attendance such as healing and restoration of
+                broken homes, marriages, relationships and families.
               </Typography>
             </Fade>
             <br />
@@ -102,7 +102,7 @@ const AboutPage = () => {
                   fontSize: "1.18rem",
                 }}>
                 Also the Initiative has equipped young people (singles) with
-                necessary tools/information for preparing for marriage.This has
+                necessary tools/information for preparing for marriage. This has
                 in turn inspired many into marriage institution.
               </Typography>
             </Fade>
@@ -145,7 +145,6 @@ const AboutPage = () => {
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
-                      fontSize: "1.18rem",
                     }}
                   />
                 </ListItem>
@@ -163,7 +162,6 @@ const AboutPage = () => {
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
-                      fontSize: "1.18rem",
                     }}
                   />
                 </ListItem>
@@ -180,7 +178,6 @@ const AboutPage = () => {
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
-                      fontSize: "1.18rem",
                     }}
                   />
                 </ListItem>
@@ -193,11 +190,10 @@ const AboutPage = () => {
                     <SendIcon sx={{ color: "green" }} />
                   </ListItemIcon>
                   <ListItemText
-                    primary='Emphasizing biblical concept of courtship,marriage,parenting, and family Life.'
+                    primary='Emphasizing biblical concept of courtship, marriage, parenting, and family Life.'
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
-                      fontSize: "1.18rem",
                     }}
                   />
                 </ListItem>
@@ -210,11 +206,10 @@ const AboutPage = () => {
                     <SendIcon sx={{ color: "green" }} />
                   </ListItemIcon>
                   <ListItemText
-                    primary='Equipping family with re-courses to face challenges,crisis,loss,and any kind of storm with victorious faith'
+                    primary='Equipping family with re-courses to face challenges, crisis, loss, and any kind of storm with victorious faith'
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
-                      fontSize: "1.18rem",
                     }}
                   />
                 </ListItem>
@@ -270,7 +265,7 @@ const AboutPage = () => {
                     <PlayArrowIcon />
                   </ListItemIcon>
                   <ListItemText
-                    primary='Holding Impactful quarterly seminar  Marriage on the Rock Seminar in an accessible venue within and outside the state/Nigeria'
+                    primary='Holding Impactful quarterly seminar Marriage on the Rock Seminar in an accessible venue within and outside the state/Nigeria'
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
@@ -321,7 +316,7 @@ const AboutPage = () => {
                     <PlayArrowIcon />
                   </ListItemIcon>
                   <ListItemText
-                    primary='Strong social media presence,promotional videos'
+                    primary='Strong social media presence, promotional videos'
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
