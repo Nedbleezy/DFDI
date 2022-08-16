@@ -3,5 +3,5 @@
   place-items: center;
 }
 .Iframer iframe {
-  width: fit-content;
+  width: 100%;
 }

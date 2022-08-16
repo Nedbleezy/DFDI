@@ -11,7 +11,7 @@ const Map = () => {
             width={"100%"}
             height={300}
             className='gmap_canvas'
-            src='https://maps.google.com/maps?q=%20Rehoboth%20Close%20Egbo%20Etche%20road%20&t=&z=11&ie=UTF8&iwloc=&output=embed'
+            src='https://maps.google.com/maps?q=Reason%20Filling%20Station%201,%20Igbo%20Etche%20Road,%20By%20Eleme%20junction,%20Port%20Harcourt&t=&z=13&ie=UTF8&iwloc=&output=embed'
             frameBorder={0}
             scrolling='no'
             marginHeight={0}

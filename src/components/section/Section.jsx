@@ -2,7 +2,7 @@ import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import React from "react";
 import styles from "./styles.module.css";
 
-const Section = ({ height }) => {
+const Section = () => {
   const data = [
     {
       id: 1,
@@ -27,7 +27,7 @@ const Section = ({ height }) => {
       name: "Pst. Cyril Eluma",
       image:
         "https://www.teenagersupport.org/wp-content/uploads/2020/07/eloma.jpg",
-      title: "CONSULTANT",
+      title: "BOARD MEMBER",
       description: `Cyril Eluma serves as a consultant, a member of Delightful family development Initiative  and a Pastor of Dunamis Christian Center, Nigeria`,
     },
     {
@@ -58,11 +58,11 @@ const Section = ({ height }) => {
         alignItems='center'>
         {data.map((item) => (
           <Grid item xs={12} sm={6} md={3} key={item.id}>
-            <Card sx={{ maxWidth: 457, marginBottom: 2, minHeight: "457px" }}>
+            <Card sx={{ maxWidth: 300, marginBottom: 2 }}>
               <CardMedia
                 component='img'
-                height={height ? { height } : "200"}
-                image={item?.image ? item?.image : "assets/p3.png"}
+                height='200'
+                image={item?.image}
                 alt='profile-Img'
                 sx={{
                   objectFit: "contain",
@@ -89,14 +89,6 @@ const Section = ({ height }) => {
                     fontFamily: "Montserrat",
                   }}>
                   {item.title}
-                </Typography>
-                <Typography
-                  variant='body1'
-                  sx={{
-                    color: "var(--textGray)",
-                    fontFamily: "Montserrat",
-                  }}>
-                  {item.description}
                 </Typography>
               </CardContent>
             </Card>

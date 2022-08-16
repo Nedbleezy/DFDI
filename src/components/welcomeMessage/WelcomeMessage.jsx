@@ -81,7 +81,7 @@ const WelcomeMessage = () => {
                   color: "var(--swat8)",
                   fontFamily: "Montserrat",
                 }}>
-                Pastor and Dr Mrs Babbs umoetuk
+                Pastor and Dr Mrs Babbs Umoetok
               </Typography>
             </Fade>
             <Fade right>

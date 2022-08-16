@@ -103,7 +103,7 @@ const AboutPage = () => {
                 }}>
                 Also the Initiative has equipped young people (singles) with
                 necessary tools/information for preparing for marriage. This has
-                in turn inspired many into marriage institution.
+                in turn inspired many into the marriage institution.
               </Typography>
             </Fade>
           </Container>
@@ -222,11 +222,10 @@ const AboutPage = () => {
                     <SendIcon sx={{ color: "green" }} />
                   </ListItemIcon>
                   <ListItemText
-                    primary='Providing a serene environment for knowledge upgrade in all aspect of family Life'
+                    primary='Providing a serene environment for knowledge upgrade in all aspect of family life'
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",
-                      fontSize: "1.18rem",
                     }}
                   />
                 </ListItem>
@@ -265,7 +264,7 @@ const AboutPage = () => {
                     <PlayArrowIcon />
                   </ListItemIcon>
                   <ListItemText
-                    primary='Holding Impactful quarterly seminar Marriage on the Rock Seminar in an accessible venue within and outside the state/Nigeria'
+                    primary='Holding Impactful quarterly seminar "Marriage on the Rock Seminar" in an accessible venue within and outside the Rivers state/Nigeria'
                     primaryTypographyProps={{
                       fontFamily: "Montserrat",
                       color: "var(--textGray)",

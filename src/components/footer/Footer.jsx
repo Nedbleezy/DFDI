@@ -206,7 +206,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1rem",
+                fontSize: "1.3rem",
                 fontFamily: "Montserrat",
               }}>
               Delightful Family
@@ -215,7 +215,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1rem",
+                fontSize: "1.3rem",
                 fontFamily: "Montserrat",
               }}>
               Development Initiative
@@ -280,7 +280,9 @@ const Footer = () => {
                 marginBottom: 1,
                 marginLeft: 1,
               }}>
-              <a href='mailto:contact@example.com' className='as'>
+              <a
+                href='mailto: dfdi@delightfulfamilydevelopmentinitiative.com'
+                className='as'>
                 Contact@dfdi.com
               </a>
             </Typography>

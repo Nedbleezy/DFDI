@@ -76,7 +76,7 @@ const HomePage = () => {
                   Never, ever devalue yourself! Don’t join the enemy and toxic
                   people to demean God’s creation! Stand out in your marriage,
                   you too can make your marriage work. No two marriages are the
-                  same,your house can be a home.
+                  same, your house can be a home.
                 </Typography>
                 <Link to='/about'>
                   <Button
@@ -140,6 +140,7 @@ const HomePage = () => {
         <Box sx={{ marginBottom: 5 }}>
           <Announce />
         </Box>
+
         <Container maxWidth='lg'>
           <Trapezium
             color='var(--textWhite)'

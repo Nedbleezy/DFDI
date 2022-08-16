@@ -6,7 +6,7 @@ import Iframer from "../iframe/Iframer";
 const Socials = () => {
   return (
     <Grid container spacing={2} sx={{ padding: "10px", marginBottom: "10px" }}>
-      <Grid item xs={12} sm={6} md={4} sx={{ padding: "5px" }}>
+      <Grid item xs={12} sm={12} md={12} sx={{ padding: "5px" }}>
         <Paper elevation={3}>
           <Typography
             sx={{
@@ -20,7 +20,12 @@ const Socials = () => {
           <Iframer />
         </Paper>
       </Grid>
-      <Grid item xs={12} sm={6} md={4} sx={{ padding: "5px" }}>
+      <Grid
+        item
+        xs={12}
+        sm={6}
+        md={4}
+        sx={{ padding: "5px", display: { xs: "block", md: "none" } }}>
         <Paper elevation={3}>
           <Typography
             sx={{
@@ -32,10 +37,15 @@ const Socials = () => {
             }}>
             Twitter
           </Typography>
-          <Iframer />
+          COMMING SOON
         </Paper>
       </Grid>
-      <Grid item xs={12} sm={6} md={4} sx={{ padding: "5px" }}>
+      <Grid
+        item
+        xs={12}
+        sm={6}
+        md={4}
+        sx={{ padding: "5px", display: { xs: "block", md: "none" } }}>
         <Paper elevation={3}>
           <Typography
             sx={{
@@ -46,7 +56,7 @@ const Socials = () => {
             }}>
             Instagram
           </Typography>
-          <Iframer />
+          COMING SOON
         </Paper>
       </Grid>
     </Grid>

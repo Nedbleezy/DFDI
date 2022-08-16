@@ -65,27 +65,16 @@ const Announce = () => {
       </Box>
       <Typography
         variant='h6'
+        gutterBottom
         sx={{
           textAlign: "center",
           fontFamily: "Monteserat",
           color: "#fff",
-          fontWeight: "bold",
-          fontSize: "1.2rem",
+          fontSize: "1.3rem",
         }}>
         Click on the link below to register
       </Typography>
-      <Typography
-        gutterBottom
-        variant='h6'
-        sx={{
-          textAlign: "center",
-          fontFamily: "Monteserat",
-          color: "#fff",
-          fontWeight: "bold",
-          fontSize: "1.2rem",
-        }}>
-        Registration ends on 10<sup>th</sup> of Sept. 2022
-      </Typography>
+
       <Box sx={{ display: "grid", placeItems: "center" }}>
         <a href='https://forms.gle/diaHc2X913Yx2ULL9'>
           <Button variant='contained'>Register</Button>

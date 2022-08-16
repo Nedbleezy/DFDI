@@ -18,6 +18,7 @@ import VolunteerActivismIcon from "@mui/icons-material/VolunteerActivism";
 import SelfImprovementIcon from "@mui/icons-material/SelfImprovement";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import AccessibilityIcon from "@mui/icons-material/Accessibility";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import styles from "./styles.module.css";
 
 const Section1 = () => {
@@ -150,7 +151,7 @@ const Section1 = () => {
                 textAlign: "center",
                 fontFamily: "Monteserat",
               }}>
-              OUR CORES VALUES
+              OUR CORE VALUES
             </Typography>
             <List
               sx={{ width: "100%", bgcolor: "background.paper" }}
@@ -229,6 +230,23 @@ const Section1 = () => {
                 </ListItemIcon>
                 <ListItemText
                   primary='Love and yielded-ness to the Holy Spirit in the family'
+                  sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  primaryTypographyProps={{
+                    fontFamily: "Montserrat",
+                    color: "var(--textGray)",
+                  }}
+                />
+              </ListItem>
+            </List>
+            <List
+              sx={{ width: "100%", bgcolor: "background.paper" }}
+              component='div'>
+              <ListItem>
+                <ListItemIcon>
+                  <EmojiPeopleIcon sx={{ color: "green" }} />
+                </ListItemIcon>
+                <ListItemText
+                  primary='Yielded-ness to the Holy Spirit in the family'
                   sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",
