@@ -3,9 +3,8 @@ import { Container, Box, Typography, Button } from "@mui/material";
 import NavBar from "../../components/navbar/NavBar";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
-import classes from "./styles.module.css";
 import WelcomeMessage from "../../components/welcomeMessage/WelcomeMessage";
-import Socials from "../../components/socials/Socials";
+
 import Map from "../../components/map/Map";
 import Trapezium from "../../components/trapezium/Trapezium";
 import Section1 from "../../components/section1/Section1";
@@ -14,10 +13,12 @@ import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 import { Carousel } from "react-responsive-carousel";
 import Announce from "../../components/announcements/Announce";
+import Gallary from "../../components/gallery/Gallary";
+import Facebook from "../../components/facebook/Facebook";
 
 const HomePage = () => {
   return (
-    <div className={classes.homePage}>
+    <div>
       <header>
         <Box
           sx={{
@@ -146,9 +147,18 @@ const HomePage = () => {
             color='var(--textWhite)'
             borderRight='50px solid transparent'
             borderBottom='70px solid var(--swat6)'
+            title='OUR PICTURE GALLARY'
+          />
+          <Gallary />
+        </Container>
+        <Container maxWidth='lg'>
+          <Trapezium
+            color='var(--textWhite)'
+            borderRight='50px solid transparent'
+            borderBottom='70px solid var(--swat6)'
             title='CONNECT WITH DFDI'
           />
-          <Socials />
+          <Facebook />
         </Container>
 
         <Box>

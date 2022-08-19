@@ -206,7 +206,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1.3rem",
+                fontSize: "1rem",
                 fontFamily: "Montserrat",
               }}>
               Delightful Family
@@ -215,7 +215,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1.3rem",
+                fontSize: "1rem",
                 fontFamily: "Montserrat",
               }}>
               Development Initiative

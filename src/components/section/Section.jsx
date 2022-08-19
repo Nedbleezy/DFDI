@@ -32,6 +32,13 @@ const Section = () => {
     },
     {
       id: 4,
+      name: "Pst. Godson Samuel",
+      image: "assets/Godson.jpeg",
+      title: "BOARD MEMBER",
+      description: `Cyril Eluma serves as a consultant, a member of Delightful family development Initiative  and a Pastor of Dunamis Christian Center, Nigeria`,
+    },
+    {
+      id: 5,
       name: "Esukuile Migbana",
       image:
         "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-1/104338424_3893766920695981_7700021369721673439_n.jpg?stp=dst-jpg_p720x720&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=mgIxNWq8CZEAX9kLQkO&_nc_ht=scontent-los2-1.xx&oh=00_AT99jCdQY6VZ80rO1JeOVorW4r2nj-xMps09zi9ntiN1ig&oe=630C2C0E",
@@ -39,7 +46,7 @@ const Section = () => {
       description: `Esukuile Migbana is the secretary of Delightful Family Developement Initiative `,
     },
     {
-      id: 5,
+      id: 6,
       name: "Iyke Melody",
       image:
         "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-1/82358632_116440070107592_8240510100458047539_n.jpg?stp=c0.182.720.720a_dst-jpg_p720x720&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=ZskyEOTXocYAX-9aWQL&_nc_oc=AQlHau19Ye4xtE3cN8l0ylIzR138niLkN4erwlDj9oTxAdmJt59p-2INMQXB7dUq8IQ&_nc_ht=scontent-los2-1.xx&oh=00_AT8chIO-9sQ2oT8an6PXjExH8ojlpyGtoJVhDQ_WGss0ig&oe=630E41C8",

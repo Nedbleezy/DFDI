@@ -1,3 +1,7 @@
-MuiBackdrop-root {
-  background: rgba(0, 0, 0, 0.5);
+.modally {
+  filter: brightness(70%);
+  transition: all 0.6s ease;
+}
+.modally:hover {
+  filter: brightness(100%);
 }

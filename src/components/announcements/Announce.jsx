@@ -30,6 +30,13 @@ const Announce = () => {
             },
           }}>
           ANNOUNCEMENT!!!
+          <img
+            src='assets/naked&unshamed.jpeg'
+            alt='naked'
+            style={{
+              marginTop: "10px",
+            }}
+          />
         </Typography>
       </Fade>
       <Fade left>
@@ -76,9 +83,9 @@ const Announce = () => {
       </Typography>
 
       <Box sx={{ display: "grid", placeItems: "center" }}>
-        <a href='https://forms.gle/diaHc2X913Yx2ULL9'>
-          <Button variant='contained'>Register</Button>
-        </a>
+        <Button variant='contained' href='https://forms.gle/diaHc2X913Yx2ULL9'>
+          Register
+        </Button>
       </Box>
     </Box>
   );
