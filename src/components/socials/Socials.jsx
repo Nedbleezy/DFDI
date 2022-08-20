@@ -6,12 +6,12 @@ import Iframer from "../iframe/Iframer";
 const Socials = () => {
   return (
     <Grid container spacing={2} sx={{ padding: "10px", marginBottom: "10px" }}>
-      <Grid item xs={12} sm={12} md={12} sx={{ padding: "5px" }}>
-        <Paper elevation={3}>
+      <Grid item xs={12} md={6} sx={{ padding: "5px" }}>
+        <Paper elevation={3} sx={{ placeItems: "center", display: "grid" }}>
           <Typography
             sx={{
               backgroundColor: "blue",
-              padding: "5px",
+              padding: "6px",
               color: "white",
               fontWeight: "bold",
             }}>

@@ -26,14 +26,14 @@
 html,
 body {
   min-height: 100vh;
-  font-family: Monteserat;
+  font-family: Montserrat;
   color: var(--headingColor);
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  font-family: Monteserat;
+  font-family: Montserrat;
 }
 
 img {

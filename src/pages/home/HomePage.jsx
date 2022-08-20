@@ -14,7 +14,7 @@ import Fade from "react-reveal/Fade";
 import { Carousel } from "react-responsive-carousel";
 import Announce from "../../components/announcements/Announce";
 import Gallary from "../../components/gallery/Gallary";
-import Facebook from "../../components/facebook/Facebook";
+import Socials from "../../components/socials/Socials";
 
 const HomePage = () => {
   return (
@@ -158,7 +158,7 @@ const HomePage = () => {
             borderBottom='70px solid var(--swat6)'
             title='CONNECT WITH DFDI'
           />
-          <Facebook />
+          <Socials />
         </Container>
 
         <Box>
