@@ -52,7 +52,7 @@ const Footer = () => {
             gutterBottom
             sx={{
               color: "#fff",
-              fontSize: "0.9rem",
+              fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
               display: { xs: "inline", md: "block" },
@@ -69,7 +69,7 @@ const Footer = () => {
             gutterBottom
             sx={{
               color: "#fff",
-              fontSize: "0.9rem",
+              fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
               display: { xs: "inline", md: "block" },
@@ -86,7 +86,7 @@ const Footer = () => {
             gutterBottom
             sx={{
               color: "#fff",
-              fontSize: "0.9rem",
+              fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
               display: { xs: "inline", md: "block" },
@@ -103,7 +103,7 @@ const Footer = () => {
             gutterBottom
             sx={{
               color: "#fff",
-              fontSize: "0.9rem",
+              fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
               display: { xs: "inline", md: "block" },
@@ -206,7 +206,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1rem",
+                fontSize: "0.9rem",
                 fontFamily: "Montserrat",
               }}>
               Delightful Family
@@ -215,7 +215,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1rem",
+                fontSize: "0.9rem",
                 fontFamily: "Montserrat",
               }}>
               Development Initiative
@@ -226,7 +226,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1rem",
+                fontSize: "0.9rem",
                 fontFamily: "Montserrat",
               }}>
               2088717100
@@ -237,7 +237,7 @@ const Footer = () => {
               variant='h6'
               sx={{
                 color: "#fff",
-                fontSize: "1rem",
+                fontSize: "0.9rem",
                 fontFamily: "Montserrat",
               }}>
               Zenith Bank
@@ -295,6 +295,7 @@ const Footer = () => {
             <CallIcon
               sx={{ color: "#fff", fontSize: "1rem", marginBottom: 1 }}
             />
+            1
             <Typography
               variant='h6'
               sx={{
@@ -306,6 +307,29 @@ const Footer = () => {
               <a href='tel:+2348033097481' className='as'>
                 {" "}
                 +2348033097481{" "}
+              </a>
+            </Typography>
+          </Box>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+            }}>
+            <CallIcon
+              sx={{ color: "#fff", fontSize: "1rem", marginBottom: 1 }}
+            />
+            2
+            <Typography
+              variant='h6'
+              sx={{
+                color: "#fff",
+
+                marginBottom: 1,
+                marginLeft: 1,
+              }}>
+              <a href='tel:+2348032106138' className='as'>
+                {" "}
+                +2348032106138{" "}
               </a>
             </Typography>
           </Box>

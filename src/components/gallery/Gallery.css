@@ -5,3 +5,10 @@
 .modally:hover {
   filter: brightness(100%);
 }
+
+@media only screen and (max-width: 500px) {
+  .modally {
+    filter: brightness(100%);
+    transition: all 0.6s ease;
+  }
+}

@@ -84,7 +84,7 @@ const AboutPage = () => {
                 }}>
                 DFDI had its first outing on the 17th of March 2018, with an
                 attendance of 200 persons including the married, engaged,
-                divorced and singles. And since then he Initiative has been
+                divorced and singles. And since then the Initiative has been
                 holding a quarterly seminar captured{" "}
                 <b> “Marriage on the Rock” </b>, which has recorded numerous
                 testimonies from attendance such as healing and restoration of

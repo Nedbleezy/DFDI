@@ -15,11 +15,11 @@ const ContactPage = () => {
               backgroundColor: "#9E8FB2",
             }}>
             <img
-              src='https://thumbs.dreamstime.com/z/people-try-to-connect-27095228.jpg'
+              src='assets/p5.jpeg'
               alt='bg'
               style={{
                 height: "300px",
-                filter: "brightness(15%)",
+                filter: "brightness(70%)",
                 width: "100%",
               }}
             />

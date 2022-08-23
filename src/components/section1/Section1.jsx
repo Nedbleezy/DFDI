@@ -27,7 +27,7 @@ const Section1 = () => {
       <CssBaseline />
       <Container
         maxWidth='xl'
-        sx={{ padding: 3, display: { xs: "block", md: "flex" } }}>
+        sx={{ padding: 3, display: { xs: "block", md: "flex" }, gap: 1 }}>
         <Box
           className={styles.Img}
           sx={{
@@ -58,7 +58,7 @@ const Section1 = () => {
               sx={{
                 color: "#fff",
                 textAlign: "center",
-                fontFamily: "Monteserat",
+                fontFamily: "Montserrat",
               }}>
               OUR VISION
             </Typography>
@@ -67,7 +67,8 @@ const Section1 = () => {
               sx={{
                 color: "#fff",
                 textAlign: "center",
-                fontFamily: "Monteserat",
+                fontFamily: "Montserrat",
+                fontSize: "16px",
               }}>
               Promoting happy family life and enriching relationships.
             </Typography>
@@ -103,7 +104,7 @@ const Section1 = () => {
               sx={{
                 color: "#fff",
                 textAlign: "center",
-                fontFamily: "Monteserat",
+                fontFamily: "Montserrat",
               }}>
               OUR MISSION
             </Typography>
@@ -112,7 +113,8 @@ const Section1 = () => {
               sx={{
                 color: "#fff",
                 textAlign: "center",
-                fontFamily: "Monteserat",
+                fontFamily: "Montserrat",
+                fontSize: "16px",
               }}>
               To equip families with needed resources, and groom those
               contemplating marriage for a successful Christ centered home.
@@ -149,7 +151,7 @@ const Section1 = () => {
               sx={{
                 color: "#fff",
                 textAlign: "center",
-                fontFamily: "Monteserat",
+                fontFamily: "Montserrat",
               }}>
               OUR CORE VALUES
             </Typography>
@@ -162,7 +164,7 @@ const Section1 = () => {
                 </ListItemIcon>
                 <ListItemText
                   primary=' Faith and Fun'
-                  sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  sx={{ fontFamily: "Montserrat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",
                     color: "var(--textGray)",
@@ -179,7 +181,7 @@ const Section1 = () => {
                 </ListItemIcon>
                 <ListItemText
                   primary='Affirmation and Appreciation'
-                  sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  sx={{ fontFamily: "Montserrat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",
                     color: "var(--textGray)",
@@ -196,7 +198,7 @@ const Section1 = () => {
                 </ListItemIcon>
                 <ListItemText
                   primary=' Mutual respect'
-                  sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  sx={{ fontFamily: "Montserrat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",
                     color: "var(--textGray)",
@@ -213,7 +215,7 @@ const Section1 = () => {
                 </ListItemIcon>
                 <ListItemText
                   primary='  Integrity'
-                  sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  sx={{ fontFamily: "Montserrat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",
                     color: "var(--textGray)",
@@ -230,7 +232,7 @@ const Section1 = () => {
                 </ListItemIcon>
                 <ListItemText
                   primary='Love and yielded-ness to the Holy Spirit in the family'
-                  sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  sx={{ fontFamily: "Montserrat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",
                     color: "var(--textGray)",
@@ -247,7 +249,7 @@ const Section1 = () => {
                 </ListItemIcon>
                 <ListItemText
                   primary='Yielded-ness to the Holy Spirit in the family'
-                  sx={{ fontFamily: "Monteserat", fontSize: "1.9rem" }}
+                  sx={{ fontFamily: "Montserrat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",
                     color: "var(--textGray)",

@@ -9,71 +9,271 @@ import "./Gallery.css";
 const itemData = [
   {
     img: "assets/m1.png",
-    title: "Bed",
+    title: "pix1",
   },
   {
     img: "assets/resize/m2.jpg",
-    title: "Books",
+    title: "pix2",
   },
   {
     img: "assets/resize/m3.jpg",
-    title: "Sink",
+    title: "pix3",
   },
   {
     img: "assets/resize/m4.jpg",
-    title: "Kitchen",
+    title: "pix4",
   },
   {
     img: "assets/resize/m5.jpg",
-    title: "Blinds",
+    title: "pix5",
   },
   {
     img: "assets/resize/m6.jpg",
-    title: "Chairs",
+    title: "pix6",
   },
   {
     img: "assets/resize/m9.jpg",
-    title: "Laptop",
+    title: "pix7",
   },
   {
     img: "assets/resize/m7.jpg",
-    title: "Doors",
+    title: "pix8",
   },
   {
     img: "assets/resize/m8.jpg",
-    title: "Coffee",
+    title: "pix9",
   },
   {
     img: "assets/resize/m10.png",
-    title: "Storage",
+    title: "pix10",
   },
   {
     img: "assets/resize/m11.png",
-    title: "Candle",
+    title: "pix11",
   },
   {
     img: "assets/resize/m12.jpg",
-    title: "Coffee table",
+    title: "pix12",
   },
   {
     img: "assets/resize/m13.jpg",
-    title: "Coffee table",
+    title: "pix13",
   },
   {
     img: "assets/resize/m14.jpg",
-    title: "Coffee table",
+    title: "pix14",
   },
   {
     img: "assets/resize/m15.jpg",
-    title: "Coffee table",
+    title: "pix15",
   },
   {
     img: "assets/resize/m16.jpg",
-    title: "Coffee table",
+    title: "pix16",
   },
   {
     img: "assets/resize/m17.jpg",
-    title: "Coffee table",
+    title: "pix17",
+  },
+  {
+    img: "assets/resize/m18.jpg",
+    title: "pix18",
+  },
+  {
+    img: "assets/resize/m19.jpg",
+    title: "pix19",
+  },
+  {
+    img: "assets/resize/m20.jpg",
+    title: "pix20",
+  },
+  {
+    img: "assets/resize/m21.jpg",
+    title: "pix21",
+  },
+  {
+    img: "assets/1/DSC02834.jpg",
+    title: "pix22",
+  },
+  {
+    img: "assets/1/DSC02835.jpg",
+    title: "pix23",
+  },
+  {
+    img: "assets/1/DSC02836.jpg",
+    title: "pix24",
+  },
+  {
+    img: "assets/1/DSC02837.jpg",
+    title: "pix25",
+  },
+  {
+    img: "assets/1/DSC02838.jpg",
+    title: "pix26",
+  },
+  {
+    img: "assets/1/DSC02842.jpg",
+    title: "pix27",
+  },
+  {
+    img: "assets/1/DSC02852.jpg",
+    title: "pix28",
+  },
+  {
+    img: "assets/1/DSC02855.jpg",
+    title: "pix29",
+  },
+  {
+    img: "assets/1/DSC02874.jpg",
+    title: "pix30",
+  },
+  {
+    img: "assets/1/DSC02878.jpg",
+    title: "pix31",
+  },
+  {
+    img: "assets/1/DSC02881.jpg",
+    title: "pix32",
+  },
+  {
+    img: "assets/1/DSC02888.jpg",
+    title: "pix33",
+  },
+  {
+    img: "assets/1/DSC02897.jpg",
+    title: "pix34",
+  },
+  {
+    img: "assets/1/DSC02902.jpg",
+    title: "pix35",
+  },
+  {
+    img: "assets/1/DSC02912.jpg",
+    title: "pix36",
+  },
+  {
+    img: "assets/1/DSC02930.jpg",
+    title: "pix37",
+  },
+  {
+    img: "assets/1/DSC02948.jpg",
+    title: "pix38",
+  },
+  {
+    img: "assets/1/DSC02949.jpg",
+    title: "pix39",
+  },
+  {
+    img: "assets/1/DSC02950.jpg",
+    title: "pix40",
+  },
+  {
+    img: "assets/1/DSC02972.jpg",
+    title: "pix41",
+  },
+  {
+    img: "assets/2/1.png",
+    title: "pix42",
+  },
+  {
+    img: "assets/2/2.png",
+    title: "pix43",
+  },
+  {
+    img: "assets/2/3.png",
+    title: "pix44",
+  },
+  {
+    img: "assets/2/4.png",
+    title: "pix45",
+  },
+  {
+    img: "assets/2/5.png",
+    title: "pix46",
+  },
+  {
+    img: "assets/2/6.png",
+    title: "pix47",
+  },
+  {
+    img: "assets/2/7.png",
+    title: "pix48",
+  },
+  {
+    img: "assets/2/8.png",
+    title: "pix49",
+  },
+  {
+    img: "assets/2/9.png",
+    title: "pix50",
+  },
+  {
+    img: "assets/2/10.png",
+    title: "pix51",
+  },
+  {
+    img: "assets/2/11.png",
+    title: "pix52",
+  },
+  {
+    img: "assets/2/12.png",
+    title: "pix53",
+  },
+  {
+    img: "assets/2/13.png",
+    title: "pix54",
+  },
+  {
+    img: "assets/2/14.png",
+    title: "pix55",
+  },
+  {
+    img: "assets/2/15.png",
+    title: "pix56",
+  },
+  {
+    img: "assets/2/16.png",
+    title: "pix57",
+  },
+  {
+    img: "assets/2/17.png",
+    title: "pix58",
+  },
+  {
+    img: "assets/2/18.png",
+    title: "pix59",
+  },
+  {
+    img: "assets/2/19.png",
+    title: "pix60",
+  },
+  {
+    img: "assets/2/20.png",
+    title: "pix61",
+  },
+  {
+    img: "assets/2/21.png",
+    title: "pix62",
+  },
+  {
+    img: "assets/p1.jpeg",
+    title: "pix63",
+  },
+  {
+    img: "assets/p2.jpeg",
+    title: "pix64",
+  },
+  {
+    img: "assets/p3.jpeg",
+    title: "pix65",
+  },
+  {
+    img: "assets/p4.jpeg",
+    title: "pix66",
+  },
+  {
+    img: "assets/p5.jpeg",
+    title: "pix67",
   },
 ];
 const style = {
@@ -81,7 +281,7 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: "80%",
+  width: "70%",
   bgcolor: "background.paper",
   boxShadow: 10,
   p: 2,

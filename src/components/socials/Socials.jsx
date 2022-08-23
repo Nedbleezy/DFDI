@@ -37,7 +37,7 @@ const Socials = () => {
             }}>
             Twitter
           </Typography>
-          COMMING SOON
+          COMING SOON
         </Paper>
       </Grid>
       <Grid
