@@ -24,13 +24,13 @@ const Section = () => {
       name: "Pst. Cyril Eluma",
       image:
         "https://www.teenagersupport.org/wp-content/uploads/2020/07/eloma.jpg",
-      title: "BOARD MEMBER",
+      title: "MEMBER",
     },
     {
       id: 4,
       name: "Pst. Godson Samuel",
       image: "assets/Godson.jpeg",
-      title: "BOARD MEMBER",
+      title: "MEMBER",
     },
     {
       id: 5,
@@ -44,13 +44,13 @@ const Section = () => {
       name: "Ikechukwu Iheukwumere",
       image:
         "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-1/82358632_116440070107592_8240510100458047539_n.jpg?stp=c0.182.720.720a_dst-jpg_p720x720&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=ZskyEOTXocYAX-9aWQL&_nc_oc=AQlHau19Ye4xtE3cN8l0ylIzR138niLkN4erwlDj9oTxAdmJt59p-2INMQXB7dUq8IQ&_nc_ht=scontent-los2-1.xx&oh=00_AT8chIO-9sQ2oT8an6PXjExH8ojlpyGtoJVhDQ_WGss0ig&oe=630E41C8",
-      title: "MUSIC DIRECTOR",
+      title: "MEMBER",
     },
     {
       id: 7,
       name: "Mayowa Aratunde Samuel",
       image: "assets/mayor.jpg",
-      title: "BOARD MEMBER",
+      title: "MEMBER",
     },
 
     {

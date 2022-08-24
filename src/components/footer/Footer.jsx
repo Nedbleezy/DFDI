@@ -22,9 +22,9 @@ const Footer = () => {
         sx={{
           display: "grid",
           gridTemplateColumns: {
-            md: "1fr 1fr 1fr 1fr",
-            sm: "1fr 1fr",
+            md: "2fr 2fr 1fr",
             xs: "1fr",
+            sm: "1fr 1fr 1fr",
           },
         }}>
         <Box sx={{ marginBottom: 1 }}>
@@ -55,7 +55,7 @@ const Footer = () => {
               fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
-              display: { xs: "inline", md: "block" },
+              display: { xs: "block", md: "block" },
               marginBottom: 2,
               "&:hover": {
                 transform: "translateX(5px)",
@@ -72,7 +72,7 @@ const Footer = () => {
               fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
-              display: { xs: "inline", md: "block" },
+              display: { xs: "block", md: "block" },
               marginBottom: 2,
               "&:hover": {
                 transform: "translateX(5px)",
@@ -89,7 +89,7 @@ const Footer = () => {
               fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
-              display: { xs: "inline", md: "block" },
+              display: { xs: "block", md: "block" },
               marginBottom: 2,
               "&:hover": {
                 transform: "translateX(5px)",
@@ -106,7 +106,7 @@ const Footer = () => {
               fontSize: "0.8rem",
               transition: "all 0.6s ease",
               marginRight: { xs: 1 },
-              display: { xs: "inline", md: "block" },
+              display: { xs: "block", md: "block" },
               marginBottom: 2,
               "&:hover": {
                 transform: "translateX(5px)",
@@ -181,7 +181,7 @@ const Footer = () => {
             />
           </Typography>
         </Box>
-        <Box sx={{ paddingRight: 3, marginBottom: 1 }}>
+        {/* <Box sx={{ paddingRight: 3, marginBottom: 1 }}>
           <Typography
             variant='h6'
             gutterBottom
@@ -243,7 +243,8 @@ const Footer = () => {
               Zenith Bank
             </Typography>{" "}
           </Box>
-        </Box>
+        </Box> */}
+
         <Box>
           <Typography
             variant='h6'

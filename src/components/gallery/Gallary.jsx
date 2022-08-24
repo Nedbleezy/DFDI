@@ -91,18 +91,7 @@ const itemData = [
     img: "assets/resize/m21.jpg",
     title: "pix21",
   },
-  {
-    img: "assets/1/DSC02834.jpg",
-    title: "pix22",
-  },
-  {
-    img: "assets/1/DSC02835.jpg",
-    title: "pix23",
-  },
-  {
-    img: "assets/1/DSC02836.jpg",
-    title: "pix24",
-  },
+
   {
     img: "assets/1/DSC02837.jpg",
     title: "pix25",
@@ -111,10 +100,7 @@ const itemData = [
     img: "assets/1/DSC02838.jpg",
     title: "pix26",
   },
-  {
-    img: "assets/1/DSC02842.jpg",
-    title: "pix27",
-  },
+
   {
     img: "assets/1/DSC02852.jpg",
     title: "pix28",
@@ -151,10 +137,7 @@ const itemData = [
     img: "assets/1/DSC02912.jpg",
     title: "pix36",
   },
-  {
-    img: "assets/1/DSC02930.jpg",
-    title: "pix37",
-  },
+
   {
     img: "assets/1/DSC02948.jpg",
     title: "pix38",

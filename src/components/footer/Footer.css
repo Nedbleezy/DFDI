@@ -3,7 +3,8 @@ a:hover {
 }
 .as {
   transition: all 0.6s ease;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
+  text-align: center;
 }
 .as:hover {
   color: blue;
