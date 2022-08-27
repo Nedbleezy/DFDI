@@ -49,7 +49,7 @@ const Section = () => {
     {
       id: 7,
       name: "Mayowa Aratunde Samuel",
-      image: "assets/mayor.jpg",
+      image: "assets/mayor.png",
       title: "MEMBER",
     },
 
@@ -69,6 +69,12 @@ const Section = () => {
       id: 10,
       name: "Ibidumo Fiberesima",
       image: "assets/Ibidumo.jpeg",
+      title: "MEMBER",
+    },
+    {
+      id: 11,
+      name: "Blessing Umoetuk",
+      image: "assets/blessing.jpeg",
       title: "MEMBER",
     },
   ];

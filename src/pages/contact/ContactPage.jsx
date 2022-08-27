@@ -19,7 +19,7 @@ const ContactPage = () => {
               alt='bg'
               style={{
                 height: "300px",
-                filter: "brightness(70%)",
+                filter: "brightness(60%)",
                 width: "100%",
               }}
             />

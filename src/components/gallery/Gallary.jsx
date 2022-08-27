@@ -12,35 +12,35 @@ const itemData = [
     title: "pix1",
   },
   {
-    img: "assets/resize/m2.jpg",
+    img: "assets/resize/m2.png",
     title: "pix2",
   },
   {
-    img: "assets/resize/m3.jpg",
+    img: "assets/resize/m3.png",
     title: "pix3",
   },
   {
-    img: "assets/resize/m4.jpg",
+    img: "assets/resize/m4.png",
     title: "pix4",
   },
   {
-    img: "assets/resize/m5.jpg",
+    img: "assets/resize/m5.png",
     title: "pix5",
   },
   {
-    img: "assets/resize/m6.jpg",
+    img: "assets/resize/m6.png",
     title: "pix6",
   },
   {
-    img: "assets/resize/m9.jpg",
+    img: "assets/resize/m9.png",
     title: "pix7",
   },
   {
-    img: "assets/resize/m7.jpg",
+    img: "assets/resize/m7.png",
     title: "pix8",
   },
   {
-    img: "assets/resize/m8.jpg",
+    img: "assets/resize/m8.png",
     title: "pix9",
   },
   {
@@ -68,7 +68,7 @@ const itemData = [
     title: "pix15",
   },
   {
-    img: "assets/resize/m16.jpg",
+    img: "assets/resize/m16.png",
     title: "pix16",
   },
   {

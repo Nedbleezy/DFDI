@@ -231,7 +231,7 @@ const Section1 = () => {
                   <FavoriteIcon sx={{ color: "green" }} />
                 </ListItemIcon>
                 <ListItemText
-                  primary='Love and yielded-ness to the Holy Spirit in the family'
+                  primary='Love'
                   sx={{ fontFamily: "Montserrat", fontSize: "1.9rem" }}
                   primaryTypographyProps={{
                     fontFamily: "Montserrat",

@@ -2,6 +2,8 @@ import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import "./styles.css";
 import Fade from "react-reveal/Fade";
+import CountDown from "../countdown/CountDown";
+import Expired from "../Expired/Expired";
 
 const Announce = () => {
   return (
@@ -29,14 +31,21 @@ const Announce = () => {
               fontFamily: "Monteserat",
             },
           }}>
-          ANNOUNCEMENT!!!
-          <img
-            src='assets/naked&unshamed.jpeg'
-            alt='naked'
-            style={{
-              marginTop: "10px",
-            }}
-          />
+          {new Date().getTime() > new Date(2022, 8, 18).getTime() ? (
+            <Expired />
+          ) : (
+            <>
+              LET THE COUNTDOWN BEGIN
+              <CountDown />
+              <img
+                src='assets/naked_unshamed.webp'
+                alt='naked'
+                style={{
+                  marginTop: "10px",
+                }}
+              />
+            </>
+          )}
         </Typography>
       </Fade>
       <Fade left>
@@ -55,38 +64,47 @@ const Announce = () => {
           NAKED AND UNASHAMED{" "}
         </Typography>
       </Fade>
-      <Box className='news'>
-        <Typography
-          variant='h6'
-          sx={{
-            fontSize: {
-              xs: "1.8rem",
-              md: "3rem",
-              textAlign: "center",
-              fontFamily: "Cursive",
-              color: "#fff",
-            },
-          }}>
-          comes up on the <b> 17th of september 2022...</b>
-        </Typography>
-      </Box>
-      <Typography
-        variant='h6'
-        gutterBottom
-        sx={{
-          textAlign: "center",
-          fontFamily: "Monteserat",
-          color: "#fff",
-          fontSize: "1.3rem",
-        }}>
-        Click on the link below to register
-      </Typography>
 
-      <Box sx={{ display: "grid", placeItems: "center" }}>
-        <Button variant='contained' href='https://forms.gle/diaHc2X913Yx2ULL9'>
-          Register
-        </Button>
-      </Box>
+      {new Date().getTime() > new Date(2022, 8, 18).getTime() ? (
+        <Box></Box>
+      ) : (
+        <>
+          <Box className='news'>
+            <Typography
+              variant='h6'
+              sx={{
+                fontSize: {
+                  xs: "1.8rem",
+                  md: "3rem",
+                  textAlign: "center",
+                  fontFamily: "Cursive",
+                  color: "#fff",
+                },
+              }}>
+              comes up on the <b> 17th of september 2022...</b>
+            </Typography>
+          </Box>
+          <Typography
+            variant='h6'
+            gutterBottom
+            sx={{
+              textAlign: "center",
+              fontFamily: "Monteserat",
+              color: "#fff",
+              fontSize: "1.3rem",
+            }}>
+            Click on the link below to register
+          </Typography>
+
+          <Box sx={{ display: "grid", placeItems: "center" }}>
+            <Button
+              variant='contained'
+              href='https://forms.gle/diaHc2X913Yx2ULL9'>
+              Register
+            </Button>
+          </Box>
+        </>
+      )}
     </Box>
   );
 };

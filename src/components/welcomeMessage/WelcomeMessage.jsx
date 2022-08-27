@@ -13,7 +13,7 @@ const WelcomeMessage = () => {
       }}>
       <Box sx={{ flex: 5, marginTop: 5 }}>
         <img
-          src='assets/p3.jpg'
+          src='assets/p3.webp'
           alt='mama&papa'
           style={{
             width: "100%",
@@ -51,7 +51,13 @@ const WelcomeMessage = () => {
                 sx={{
                   fontFamily: "Montserrat",
                   color: "var(--textGray)",
-                  fontSize: "1.1rem",
+                  fontSize: "1.05rem",
+                  "&:first-letter": {
+                    fontSize: "2rem",
+                    color: "var(--swat3)",
+
+                    fontWeight: "bold",
+                  },
                 }}>
                 Our vision at Delightful Family Development Initiatives (DFDI)
                 is for God to mold you into a purpose-filled vessel, pointing

@@ -110,22 +110,22 @@ const HomePage = () => {
                   showArrows={true}
                   transitionTime={2000}>
                   <div>
-                    <img src='assets/p1.png' alt='slider-1' />
+                    <img src='assets/p1.webp' alt='slider-1' />
                   </div>
                   <div>
-                    <img src='assets/p2.png' alt='slider-2' />
+                    <img src='assets/p2.webp' alt='slider-2' />
                   </div>
                   <div>
-                    <img src='assets/p3.png' alt='slider-3' />
+                    <img src='assets/p4.webp' alt='slider-3' />
                   </div>
                   <div>
-                    <img src='assets/p4.png' alt='slider-4' />
+                    <img src='assets/p5.webp' alt='slider-4' />
                   </div>
                   <div>
-                    <img src='assets/p5.png' alt='slider-5' />
+                    <img src='assets/p6.webp' alt='slider-5' />
                   </div>
                   <div>
-                    <img src='assets/p6.png' alt='slider-6' />
+                    <img src='assets/p7.webp' alt='slider-6' />
                   </div>
                 </Carousel>
               </Fade>

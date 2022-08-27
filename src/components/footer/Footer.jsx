@@ -155,16 +155,18 @@ const Footer = () => {
           <Typography
             component='p'
             sx={{ color: "#fff", marginRight: 3, display: "inline-block" }}>
-            <TwitterIcon
-              sx={{
-                transition: "all 0.6s ease",
-                cursor: "pointer",
-                "&:hover": {
-                  transform: "translateY(-5px)",
-                  color: "orange",
-                },
-              }}
-            />
+            <a href='https://twitter.com/DelightfulFDI'>
+              <TwitterIcon
+                sx={{
+                  transition: "all 0.6s ease",
+                  cursor: "pointer",
+                  "&:hover": {
+                    transform: "translateY(-5px)",
+                    color: "orange",
+                  },
+                }}
+              />
+            </a>
           </Typography>
           <Typography
             component='p'
