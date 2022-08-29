@@ -8,14 +8,12 @@ const Section = () => {
       id: 1,
       name: "Pst. Dr. Babbs Umoetok",
       title: "PRESIDENT",
-      image:
-        "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-9/121327282_10221988827004184_8878867953635468408_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PGskK5Xb4UcAX81IxAm&_nc_ht=scontent-los2-1.xx&oh=00_AT9hMoknz7Hoj2hyReRKdFxBQfwwGtGA8xTv8eFwBYdm3Q&oe=630C3AA0",
+      image: "assets/babbs.png",
     },
     {
       id: 2,
       name: "Pst. Dr. Dora Umoetok",
-      image:
-        "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-9/130493709_5119486808069412_5009444809886882381_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=J2jJxGLcFw4AX_KvV_G&_nc_ht=scontent-los2-1.xx&oh=00_AT9YEbfRdSkuizSlW0SDu0JxgMCzVIj8Ll_FvBJS41Kh5w&oe=630C4A70",
+      image: "assets/dora.jpg",
       title: "VICE PRESIDENT",
     },
 
@@ -35,8 +33,7 @@ const Section = () => {
     {
       id: 5,
       name: "Esukuile Awajigbana",
-      image:
-        "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-1/104338424_3893766920695981_7700021369721673439_n.jpg?stp=dst-jpg_p720x720&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=mgIxNWq8CZEAX9kLQkO&_nc_ht=scontent-los2-1.xx&oh=00_AT99jCdQY6VZ80rO1JeOVorW4r2nj-xMps09zi9ntiN1ig&oe=630C2C0E",
+      image: "assets/jere.jpg",
       title: "SECRETARY",
     },
     {
@@ -55,26 +52,26 @@ const Section = () => {
 
     {
       id: 8,
-      name: "Cedric Akaniru",
-      image: "assets/cedric.jpg",
-      title: "MEMBER",
-    },
-    {
-      id: 9,
       name: "Obiekezie Henry Nnamdi",
       image: "assets/henry.jpg",
       title: "MEMBER",
     },
     {
-      id: 10,
+      id: 9,
       name: "Ibidumo Fiberesima",
       image: "assets/Ibidumo.jpeg",
       title: "MEMBER",
     },
     {
-      id: 11,
+      id: 10,
       name: "Blessing Umoetuk",
       image: "assets/blessing.jpeg",
+      title: "MEMBER",
+    },
+    {
+      id: 11,
+      name: "Okere Chinedum Godwin",
+      image: "assets/ned.jpeg",
       title: "MEMBER",
     },
   ];
