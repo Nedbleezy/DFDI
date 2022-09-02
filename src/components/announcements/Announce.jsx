@@ -38,7 +38,7 @@ const Announce = () => {
               LET THE COUNTDOWN BEGIN
               <CountDown />
               <img
-                src='assets/naked_unshamed.webp'
+                src='assets/dfi.jpeg'
                 alt='naked'
                 style={{
                   marginTop: "10px",

@@ -39,8 +39,7 @@ const Section = () => {
     {
       id: 6,
       name: "Ikechukwu Iheukwumere",
-      image:
-        "https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-1/82358632_116440070107592_8240510100458047539_n.jpg?stp=c0.182.720.720a_dst-jpg_p720x720&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=ZskyEOTXocYAX-9aWQL&_nc_oc=AQlHau19Ye4xtE3cN8l0ylIzR138niLkN4erwlDj9oTxAdmJt59p-2INMQXB7dUq8IQ&_nc_ht=scontent-los2-1.xx&oh=00_AT8chIO-9sQ2oT8an6PXjExH8ojlpyGtoJVhDQ_WGss0ig&oe=630E41C8",
+      image: "assets/Ik.jpg",
       title: "MEMBER",
     },
     {
@@ -72,6 +71,18 @@ const Section = () => {
       id: 11,
       name: "Okere Chinedum Godwin",
       image: "assets/ned.jpeg",
+      title: "MEMBER",
+    },
+    {
+      id: 12,
+      name: "Kufre Bassey",
+      image: "assets/kuf.png",
+      title: "MEMBER",
+    },
+    {
+      id: 12,
+      name: "Esukuile Ibeikareawaji",
+      image: "assets/Ib.png",
       title: "MEMBER",
     },
   ];
