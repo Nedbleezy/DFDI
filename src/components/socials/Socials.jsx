@@ -6,8 +6,8 @@ import Iframer from "../iframe/Iframer";
 const Socials = () => {
   return (
     <Grid container spacing={2} sx={{ padding: "10px", marginBottom: "10px" }}>
-      <Grid item xs={12} md={6} sx={{ padding: "5px" }}>
-        <Paper elevation={3} sx={{ placeItems: "center", display: "grid" }}>
+      <Grid item xs={12} sm={6} md={6} sx={{ padding: "5px" }}>
+        <Paper elevation={3}>
           <Typography
             sx={{
               backgroundColor: "blue",
@@ -20,13 +20,8 @@ const Socials = () => {
           <Iframer />
         </Paper>
       </Grid>
-      <Grid
-        item
-        xs={12}
-        sm={6}
-        md={4}
-        sx={{ padding: "5px", display: { xs: "block", md: "none" } }}>
-        <Paper elevation={3}>
+      <Grid item xs={12} sm={6} md={6} sx={{ padding: "5px" }}>
+        <Paper elevation={3} sx={{ height: "450px", overflow: "auto" }}>
           <Typography
             sx={{
               backgroundColor: "purple",
@@ -37,7 +32,11 @@ const Socials = () => {
             }}>
             Twitter
           </Typography>
-          COMING SOON
+          <a
+            className='twitter-timeline'
+            href='https://twitter.com/DelightfulFDI?ref_src=twsrc%5Etfw'>
+            Tweets by DelightfulFDI
+          </a>{" "}
         </Paper>
       </Grid>
       <Grid

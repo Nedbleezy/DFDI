@@ -147,7 +147,7 @@ const HomePage = () => {
             color='var(--textWhite)'
             borderRight='50px solid transparent'
             borderBottom='70px solid var(--swat6)'
-            title='OUR PICTURE GALLARY'
+            title='OUR PICTURE GALLERY'
           />
           <Gallary />
         </Container>

@@ -80,9 +80,15 @@ const Section = () => {
       title: "MEMBER",
     },
     {
-      id: 12,
+      id: 13,
       name: "Esukuile Ibeikareawaji",
       image: "assets/Ib.png",
+      title: "MEMBER",
+    },
+    {
+      id: 14,
+      name: "Somorin Oluseyi",
+      image: "assets/seyi.png",
       title: "MEMBER",
     },
   ];

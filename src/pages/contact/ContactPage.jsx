@@ -39,9 +39,9 @@ const ContactPage = () => {
 
           <Box sx={{ flex: 6 }}>
             <img
-              src='https://scontent-los2-1.xx.fbcdn.net/v/t1.6435-9/186291814_5853830217968397_1377953589775631871_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=VCYPTgNO31wAX8dGoGt&_nc_ht=scontent-los2-1.xx&oh=00_AT_CmjUh_r-DUuYfaoaVb-Lsx4pzWV-7iM3_BMR68CbaUA&oe=6312C4A0'
+              src='assets/papa&mama.jpg'
               alt='papa&mama'
-              style={{ height: "80%" }}
+              style={{ padding: ".5rem", width: "100%" }}
             />
           </Box>
         </Box>

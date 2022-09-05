@@ -35,7 +35,7 @@ const Announce = () => {
             <Expired />
           ) : (
             <>
-              LET THE COUNTDOWN BEGIN
+              LET THE COUNTDOWN BEGIN!!!
               <CountDown />
               <img
                 src='assets/dfi.jpeg'
