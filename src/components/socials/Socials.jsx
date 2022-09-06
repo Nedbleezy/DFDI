@@ -21,7 +21,7 @@ const Socials = () => {
         </Paper>
       </Grid>
       <Grid item xs={12} sm={6} md={6} sx={{ padding: "5px" }}>
-        <Paper elevation={3} sx={{ height: "450px", overflow: "auto" }}>
+        <Paper elevation={3} sx={{ height: "450px", overflow: "hidden" }}>
           <Typography
             sx={{
               backgroundColor: "purple",
@@ -32,11 +32,15 @@ const Socials = () => {
             }}>
             Twitter
           </Typography>
-          <a
-            className='twitter-timeline'
-            href='https://twitter.com/DelightfulFDI?ref_src=twsrc%5Etfw'>
-            Tweets by DelightfulFDI
-          </a>{" "}
+          <iframe
+            title='twitter'
+            src='https://widget.taggbox.com/106943'
+            style={{
+              width: "100%",
+              height: "400px",
+              border: "none",
+              overflow: "auto",
+            }}></iframe>
         </Paper>
       </Grid>
       <Grid
