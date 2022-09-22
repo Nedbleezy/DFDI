@@ -12,24 +12,29 @@ import Footer from '../../components/footer/Footer';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import { Carousel } from 'react-responsive-carousel';
-// import Announce from '../../components/announcements/Announce';
+import Programs from '../../components/programs/Programs';
 import Gallary from '../../components/gallery/Gallary';
 import Socials from '../../components/socials/Socials';
+import { CssBaseline } from '@mui/material';
 
-const HomePage = () => {
+const HomePage = ({ setMode, mode }) => {
     return (
         <div>
             <header>
+                <CssBaseline />
                 <Box
+                    style={{
+                        background:
+                            mode === 'dark'
+                                ? '#121212'
+                                : 'linear-gradient(-101deg,  var(--bg1) 61.5%, var(--bg2) 0%)',
+                    }}
                     sx={{
                         position: 'relative',
-                        // height: { xl: "100vh", sm: "auto", md: "100vh" },
-
-                        backgroundImage:
-                            'linear-gradient(-101deg,  var(--bg1) 61.5%, var(--bg2) 0%)',
+                        background: 'linear-gradient(-101deg,  var(--bg1) 61.5%, var(--bg2) 0%)',
                     }}
                 >
-                    <NavBar />
+                    <NavBar setMode={setMode} mode={mode} />
                     <Container
                         maxWidth='xl'
                         sx={{
@@ -90,6 +95,7 @@ const HomePage = () => {
                                         variant='contained'
                                         sx={{
                                             marginTop: '2rem',
+                                            color: '#fff',
                                             padding: '0.4rem',
                                             fontWeight: 'bold',
                                             backgroundColor: 'var(--bg1)',
@@ -117,6 +123,15 @@ const HomePage = () => {
                                     showArrows={true}
                                     transitionTime={2000}
                                 >
+                                    <div>
+                                        <img src='assets/carousel/rp22.png' alt='slider-a' />
+                                    </div>
+                                    <div>
+                                        <img src='assets/carousel/rp16.png' alt='slider-b' />
+                                    </div>
+                                    <div>
+                                        <img src='assets/carousel/rp20.png' alt='slider-c' />
+                                    </div>
                                     <div>
                                         <img src='assets/p1.webp' alt='slider-1' />
                                     </div>
@@ -146,9 +161,9 @@ const HomePage = () => {
                     <WelcomeMessage />
                 </Box>
                 <Section1 />
-                {/* <Box sx={{ marginBottom: 5 }}>
-          <Announce />
-        </Box> */}
+                <Box sx={{ marginBottom: 5 }}>
+                    <Programs />
+                </Box>
 
                 <Container maxWidth='lg'>
                     <Trapezium
@@ -176,7 +191,7 @@ const HomePage = () => {
 
             <footer>
                 <Box>
-                    <Footer />
+                    <Footer mode={mode} />
                 </Box>
             </footer>
         </div>
