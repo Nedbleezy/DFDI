@@ -124,6 +124,9 @@ const HomePage = ({ setMode, mode }) => {
                                     transitionTime={2000}
                                 >
                                     <div>
+                                        <img src='assets/carousel/rsz.png' alt='slider-a' />
+                                    </div>
+                                    <div>
                                         <img src='assets/carousel/rp22.png' alt='slider-a' />
                                     </div>
                                     <div>

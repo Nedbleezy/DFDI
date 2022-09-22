@@ -9,6 +9,10 @@ import './Gallery.css';
 const itemData = [
     {
         img: 'assets/m1.png',
+        title: 'pix1a',
+    },
+    {
+        img: 'assets/carousel/p25.png',
         title: 'pix1',
     },
     {
@@ -97,7 +101,19 @@ const itemData = [
         title: 'pix25',
     },
     {
-        img: 'assets/carousel/d.jpg',
+        img: 'assets/carousel/reric.png',
+        title: 'pix25a',
+    },
+    {
+        img: 'assets/carousel/rgo.png',
+        title: 'pix25b',
+    },
+    {
+        img: 'assets/carousel/p24.png',
+        title: 'pix25b',
+    },
+    {
+        img: 'assets/carousel/v.png',
         title: 'pix26',
     },
     {
