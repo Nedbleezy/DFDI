@@ -105,15 +105,43 @@ const itemData = [
         title: 'pix25a',
     },
     {
-        img: 'assets/carousel/rgo.png',
-        title: 'pix25b',
+        img: 'assets/naked/n1.webp',
+        title: 'pixn1',
+    },
+    {
+        img: 'assets/naked/n2.webp',
+        title: 'pixn2',
+    },
+    {
+        img: 'assets/naked/n3.webp',
+        title: 'pixn3',
+    },
+    {
+        img: 'assets/naked/n4.webp',
+        title: 'pix4',
+    },
+    {
+        img: 'assets/naked/n5.webp',
+        title: 'pixn5',
+    },
+    {
+        img: 'assets/naked/n6.webp',
+        title: 'pixn6',
+    },
+    {
+        img: 'assets/naked/n7.webp',
+        title: 'pixn7',
+    },
+    {
+        img: 'assets/naked/n8.webp',
+        title: 'pixn8',
     },
     {
         img: 'assets/carousel/p24.png',
-        title: 'pix25b',
+        title: 'pix25bc',
     },
     {
-        img: 'assets/carousel/v.png',
+        img: 'assets/naked/favv.png',
         title: 'pix26',
     },
     {
@@ -122,11 +150,11 @@ const itemData = [
     },
 
     {
-        img: 'assets/carousel/p8.png',
+        img: 'assets/carousel/p17.png',
         title: 'pix28a',
     },
     {
-        img: 'assets/carousel/p12.png',
+        img: 'assets/carousel/p3.png',
         title: 'pix28b',
     },
     {

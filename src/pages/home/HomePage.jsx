@@ -127,14 +127,15 @@ const HomePage = ({ setMode, mode }) => {
                                         <img src='assets/carousel/rsz.png' alt='slider-a' />
                                     </div>
                                     <div>
-                                        <img src='assets/carousel/rp22.png' alt='slider-a' />
+                                        <img src='assets/carousel/p25.png' alt='slider-g' />
+                                    </div>
+                                    <div>
+                                        <img src='assets/carousel/p24.png' alt='slider-k' />
                                     </div>
                                     <div>
                                         <img src='assets/carousel/rp16.png' alt='slider-b' />
                                     </div>
-                                    <div>
-                                        <img src='assets/carousel/rp20.png' alt='slider-c' />
-                                    </div>
+
                                     <div>
                                         <img src='assets/p1.webp' alt='slider-1' />
                                     </div>
