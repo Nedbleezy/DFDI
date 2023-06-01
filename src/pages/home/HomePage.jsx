@@ -25,26 +25,29 @@ const HomePage = ({ setMode, mode }) => {
         <CssBaseline />
         <Box
           style={{
+             position: 'relative',
             background:
               mode === 'dark'
                 ? '#121212'
                 : 'linear-gradient(-101deg,  var(--bg1) 61.5%, var(--bg2) 0%)',
           }}
-          sx={{
-            position: 'relative',
-            background:
-              'linear-gradient(-101deg,  var(--bg1) 61.5%, var(--bg2) 0%)',
-          }}
+         
         >
           <NavBar setMode={setMode} mode={mode} />
           <Container
             maxWidth='xl'
-            sx={{
+         
+            sx={(theme)=>({
               display: 'flex',
-              flexDirection: { xs: 'column', lg: 'row' },
+               flexDirection: { xs: 'column', lg: 'row' },
               justifyContent: 'center',
-              alignItems: 'center',
-            }}
+               alignItems: 'center',
+               [theme.breakpoints.down("sm")]:{
+                flexDirection:"column-reverse",
+                
+               }
+            })}
+
           >
             <Box
               sx={{
@@ -56,12 +59,18 @@ const HomePage = ({ setMode, mode }) => {
               <Fade bottom>
                 <Typography
                   variant='h1'
-                  sx={{
-                    fontWeight: 'bold',
+                
+
+                    sx={(theme)=>({
+                 fontWeight: 'bold',
                     fontSize: { xs: '2.2rem', md: '3.4rem' },
                     textShadow: '-3px 3px 2px var(--bg1)',
                     fontFamily: 'Montserrat',
-                  }}
+               [theme.breakpoints.down("sm")]:{
+                marginTop: "50px"
+                
+               }
+            })}
                 >
                   WELCOME TO
                 </Typography>
@@ -124,6 +133,8 @@ const HomePage = ({ setMode, mode }) => {
                   showIndicators={false}
                   showArrows={true}
                   transitionTime={2000}
+                  animationHandler="fade"
+                  
                 >
                   <div>
                     <img src='assets/carousel/rsz.png' alt='slider-a' />

@@ -1,55 +1,55 @@
 :root {
-	--logoFont1: 'Great Vibes', cursive;
-	--logoFont2: 'Montserrat', sans-serif;
-	--bg1: #58625f;
-	--bg2: #dab793;
-	--bg3: #40c087;
-	--swat1: #f5f0eb;
-	--swat2: #e6ccb1;
-	--swat3: #dab793;
-	--swat4: #a8a39e;
-	--swat5: #131313;
-	--swat6: #c5916a;
-	--swat7: #5d5c5b;
-	--swat8: #b97245;
-	--swat10: #748b57;
-	--swat9: #58625f;
-	--textWhite: #fff;
-	--headingColor: #a3a3a3;
-	--textGray: #727475;
+  --logoFont1: 'Great Vibes', cursive;
+  --logoFont2: 'Montserrat', sans-serif;
+  --bg1: #1c4236;
+  --bg2: #6b4723;
+  --bg3: #40c087;
+  --swat1: #f5f0eb;
+  --swat2: #e6ccb1;
+  --swat3: #dab793;
+  --swat4: #a8a39e;
+  --swat5: #131313;
+  --swat6: #c5916a;
+  --swat7: #5d5c5b;
+  --swat8: #b97245;
+  --swat10: #748b57;
+  --swat9: #58625f;
+  --textWhite: #fff;
+  --headingColor: #a3a3a3;
+  --textGray: #727475;
 }
 * {
-	margin: 0;
-	box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 #root,
 html,
 body {
-	min-height: 100vh;
-	font-family: Montserrat;
-	color: var(--headingColor);
+  min-height: 100vh;
+  font-family: Montserrat;
+  color: var(--headingColor);
 }
 
 a {
-	text-decoration: none;
-	color: #fff;
-	font-family: Montserrat;
+  text-decoration: none;
+  color: #fff;
+  font-family: Montserrat;
 }
 
 img {
-	width: 100%;
-	object-fit: cover;
-	display: block;
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
 .sticky {
-	position: fixed;
-	top: 0;
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-	z-index: 600;
-	background-color: var(--bg1);
-	left: 0;
-	right: 0;
-	transition: all 0.6s ease;
+  position: fixed;
+  top: 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  z-index: 600;
+  background-color: var(--bg1);
+  left: 0;
+  right: 0;
+  transition: all 0.6s ease;
 }
 
 /* style for iframe for only faceboo remove when you add other social */
